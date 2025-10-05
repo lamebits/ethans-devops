@@ -1,2 +1,500 @@
-Git Commands
-
+   61  git diff --cached
+   62  git diff --staged
+   63  clear
+   64  vi file2
+   65  git add .
+   66  git commit -m "second commit"
+   67  git remote add origin https://github.com/vipin-ethans/class8-8.git
+   68  git branch -M master
+   69  git push -u origin master
+   70  vi file3
+   71  vi .gitignore
+   72  git add .
+   73  git commit -m "third"
+   74  git push -u origin master
+   75  cd ..
+   76  mkdir dd1
+   77  vi aa
+   78  git add .
+   79  git init
+   80  cd dd1
+   81  git init
+   82  git add .
+   83  git commit -m "aa"
+   84  git remote add myjio https://github.com/vipin-ethans/aa.git
+   85  git branch -M master
+   86  vi aa
+   87  git add .
+   88  git commit -m "aa"
+   89  git push -u origin master
+   90  git push -u myjio master
+   91  clear
+   92  cd ..
+   93  rm -rf dd1
+   94  rm -rf class8-8
+   95  rm -rf class8-git
+   96  clear
+   97  ls 99*
+   98  rm -rf 997-g
+   99  clear
+  100  mkdir git-997
+  101  cd git-997
+  102  vi myfile
+  103  vi myfile2
+  104  git add .
+  105  ls
+  106  pwd
+  107  git add myfile1
+  108  clear
+  109  git add myfile
+  110  git init
+  111  git add .
+  112  git status
+  113  git commit 
+  114  clear
+  115  git remote add myrepo https://github.com/vipin-ethans/class997.git
+  116  git branch -M master
+  117  git push -u myrepo master
+  118  vi myfile
+  119  git -a -m "second commit"
+  120  git commit -a -m "second commit"
+  121  git push -u myrepo master
+  122  history
+  123  ls
+  124  vi myfile3
+  125  vi .gitignore
+  126  git add .
+  127  git status
+  128  git commit -m "third commit"
+  129  git push -u myrepo master
+  130  vi aa.aml
+  131  cd Downloads/
+  132  ssh -i linux1.pem ec2-user@3.111.56.96
+  133  cd Downloads/
+  134  ssh -i linux1.pem ec2-user@13.203.73.214
+  135  ssh -i linux1.pem ec2-user@13.203.73.214
+  136  cd Downloads/
+  137  ssh -i linux1.pem ec2-user@13.201.171.183
+  138  pwd
+  139  cd /d/
+  140  mkdir git-8
+  141  cd git-8/
+  142  git init
+  143  vi task
+  144  git add .
+  145  git commit -m "task distribution"
+  146  git branch login
+  147  ls
+  148  git checkout login
+  149  ls
+  150  cat task
+  151  git checkout master
+  152  ls
+  153  cat task
+  154  vi index.html
+  155  git commit -a -m "index created"
+  156  git add .
+  157  git commit -m "index.html"
+  158  git checkout login
+  159  ls
+  160  git checkout master
+  161  ls
+  162  git checkout login
+  163  vi login.html
+  164  git checkout master
+  165  git checkout login
+  166  git add .
+  167  git commit -m "login create"
+  168  git checkout master
+  169  ls
+  170  git checkout login
+  171  ls
+  172  git checkout master
+  173  git merge - m "merge " login
+  174  git merge -m "merge " login
+  175  cd ..
+  176  rm -rf git-8/
+  177  mkdir git-8
+  178  cd git-8/
+  179  git init
+  180  vi index.html
+  181  git add .
+  182  git commit -m "index"
+  183  git branch login
+  184  git checkout login
+  185  ls
+  186  vi login.html
+  187  git add .
+  188  git commit -m "login "
+  189  git checkout master
+  190  vi index.html
+  191  git commit -a -m "index update"
+  192  git checkout login
+  193  git rebase
+  194  git rebase master
+  195  cd ..
+  196  rm -rf git-8/
+  197  pwd
+  198  cd /d/
+  199  mkdir git-br
+  200  cd git-br
+  201  git init
+  202  vi readme
+  203  git add .
+  204  git commit -m "readme created"
+  205  git branch login-branch
+  206  git branch
+  207  ls
+  208  cat readme
+  209  git checkout login-branch
+  210  ls
+  211  cat readme 
+  212  vi login.html
+  213  git add .
+  214  git commit -m "login created"
+  215  ls
+  216  git checkout master
+  217  ls
+  218  vi index.html
+  219  git add .
+  220  git commit -m "index created"
+  221  ls
+  222  git checkout login-branch
+  223  ls
+  224  git checkout master
+  225  ls
+  226  git merge -m "merge " login-branch 
+  227  ls
+  228  history
+  229  clear
+  230  cd ..
+  231  rm -rf git-br/
+  232  mkdir git-re
+  233  git init
+  234  cd git-re/
+  235  vi readme
+  236  git init
+  237  git add .
+  238  git commit -m "redme created"
+  239  vi index.html
+  240  git add .
+  241  git commit -m "index "
+  242  ls
+  243  git branch login-br
+  244  git branch
+  245  git checkout login-br 
+  246  ls
+  247  cat index.html 
+  248  vi login.html
+  249  git add .
+  250  git commit -m "login create"
+  251  ls
+  252  cat index.html 
+  253  git checkout master
+  254  ls
+  255  vi index.html
+  256  git add .
+  257  git commit -m "index creaed"
+  258  cat index.html 
+  259  git checkout login-br 
+  260  ls
+  261  cat index.html 
+  262  git rebase master
+  263  ls
+  264  cat index.html 
+  265  git checkout master 
+  266  ls
+  267  vi index.html
+  268  vi readme 
+  269  git add .
+  270  git commit -m "two file"
+  271  git checkout login-br 
+  272  git rebase master
+  273  echo "hi">>file1
+  274  git add .
+  275  git commit -m "f1"
+  276  echo "hi">>file2
+  277  git commit -a -m "f2" 
+  278  git add
+  279  git add .
+  280  git commit -m "f2"
+  281  echo "hi">>file3
+  282  git add .
+  283  git commit -m "f3"
+  284  git log
+  285  git log --oneline
+  286  git checkout master
+  287  ls
+  288  git cherry-pick login-br b646af1
+  289  ls
+  290  cd /d/
+  291  mkdirk chp-8
+  292  mkdir chp-8
+  293  cd chp-8
+  294  git init
+  295  echo "file1">file1
+  296  git add .
+  297  git commit -m "file1"
+  298  git branch new-branch
+  299  git checkout new-branch 
+  300  ls
+  301  cat file1
+  302  echo "file2">>file2
+  303  git add .
+  304  git commit -m "file2"
+  305  ls
+  306  echo "file3">>file3
+  307  git add .
+  308  git commit -m "file3"
+  309  echo "file4">>file4
+  310  git add .
+  311  git commit -m "file4"
+  312  ls
+  313  git log --oneline
+  314  git checkout master 
+  315  git cherry-pick da88da9 
+  316  ls
+  317  git cherry-pick c1c6320 
+  318  ls
+  319  history
+  320  cd ..
+  321  rm -f chp-8/
+  322  rm -rf chp-8/
+  323  mkdir cf-8
+  324  cd cf-8/
+  325  git init
+  326  echo "line1">>file1
+  327  git add .
+  328  git commit -m "line1"
+  329  git branch b1
+  330  git checkout b1
+  331  ls
+  332  cat file1 
+  333  echo "line2">file1
+  334  git add .
+  335  git commit -m "line2"
+  336  git checkout master
+  337  cat file1
+  338  echo "line3">file1
+  339  git add .
+  340  git commit -m "line 3"
+  341  cat file1
+  342  echo "line1">>file1
+  343  git add .
+  344  git commit -m "line 1 added one more time"
+  345  cat file1
+  346  git checkout b1 
+  347  ls
+  348  cat file1
+  349  git checkout master
+  350  git merge b1
+  351  vi f1
+  352  vi file1
+  353  git add .
+  354  git commit -m "conflict"
+  355  history
+  356  touch aa
+  357  git branch
+  358  !
+  359  git checkout b1
+  360  ls
+  361  cd /d/
+  362  mkdir c-997
+  363  cd c--997
+  364  cd c-997
+  365  git add .
+  366  vi file1
+  367  git add .
+  368  git init
+  369  git add .
+  370  git commit -m "first line"
+  371  git branch b1
+  372  git b1
+  373  git checkout b1
+  374  ls
+  375  cat file1
+  376  vi file1
+  377  git add .
+  378  git commit -m "second line"
+  379  git checkout master 
+  380  ls
+  381  vi file1
+  382  git add .
+  383  git commit -m "line 3"
+  384  cat file1
+  385  git checkout b1
+  386  cat file1
+  387  git checkout master 
+  388  git merge b1
+  389  vi file1
+  390  git commit -m "conflict resolve"
+  391  git add .
+  392  git commit -m "conflict resolve"
+  393  vi file1
+  394  history
+  395  ls
+  396  git remote add origin https://github.com/vipin-ethans/class99n.git
+  397  git branch -M master
+  398  git push -u origin master
+  399  cat file1
+  400  cat file1
+  401  git pull origin master
+  402  cat file1
+  403  cat file1
+  404  git pull origin master
+  405  cat file1
+  406  cat file1
+  407  git fetch origin master
+  408  cat file1
+  409  git merge
+  410  cat file1
+  411  history
+  412  ls
+  413  cat
+  414  cat file1
+  415  git log --obeline
+  416  git log --oneline
+  417  vi file1
+  418  git add .
+  419  git commit -m "line 6"
+  420  vi file1
+  421  git add .
+  422  git commit -m "line 7"
+  423  cat file1
+  424  git log --oneline
+  425  git reset --hard f62fcb9
+  426  cat file1
+  427  git push -u origin master
+  428  git pull origin master
+  429  git fetch origin master
+  430  git diff
+  431  git status
+  432  pwd
+  433  cd /d/
+  434  mkdir batch-10-git
+  435  cd batch-10-git/
+  436  git init
+  437  ccd /d/
+  438  cd /d/
+  439  cd batch-10-git/
+  440  vi file1
+  441  git status
+  442  git add file1
+  443  git status
+  444  git commit -m "first commit"
+  445  git status
+  446  vi file1
+  447  git status
+  448  git add file1
+  449  git status
+  450  git commit -m "second commit"
+  451  git log
+  452  git diff 9ccbc2b0347ea4d34e3d415c2a325c74e26c67cb ca5711914c58e9f1d91e7523494a87f8ede1ca8a
+  453  vi file1
+  454  git add file1
+  455  git commit -m "third commit"
+  456  git log
+  457  git log --oneline
+  458  git diff ca57119 8489e31
+  459  git diff 8489e31 ca57119
+  460  history
+  461  cd ..
+  462  rm -rf batch-10-git/
+  463  mkdir newdir
+  464  cd newdir/
+  465  git init
+  466  vi file1
+  467  git add file1
+  468  git commit -m "line1"
+  469  vi file1 
+  470  git add file1
+  471  git status 
+  472  vi file1
+  473  git status
+  474  git diff 
+  475  git diff --staged
+  476  git diff --cached
+  477  git remote add myrepo https://github.com/vipin-ethans/class10.git
+  478  git branch -M master
+  479  git push -u myrepo master
+  480  vi file1
+  481  git add .
+  482  git commit -m " last commit day "
+  483  git push -u myrepo master
+  484  vi file2
+  485  git add .
+  486  git commit -m "second file created"
+  487  git push -u myrepo master
+  488  git init
+  489  git add .
+  490  git commit -m "ansible file with example"
+  491  git remote add origin https://github.com/vipin-ethans/class10.git
+  492  git branch -m mster
+  493  git branch -m master
+  494  git push -u origin master
+  495  git remote add origin1 https://github.com/vipin-ethans/ansible.git
+  496  git branch -M maaster
+  497  git push -u origin1 master
+  498  git branch -M master
+  499  git push -u origin1 master
+  500  history
+  501  pwd
+  502  cd /d/
+  503  pwd
+  504  mkdir git-999
+  505  cd git-999
+  506  git init
+  507  cd .git/
+  508  ls
+  509  cd ..
+  510  vi file1
+  511  git status
+  512  git add file1
+  513  git status
+  514  git commit -m "new file"
+  515  git status
+  516  vi file1
+  517  git status
+  518  git add file1
+  519  git status
+  520  git commit -m "2nd line added"
+  521  vi file1
+  522  git add file1
+  523  git commit -m " 3rd line added"
+  524  git status
+  525  git log
+  526  git diff a347486bf9b035f7e011c6bd99b13e6eaacad269 435a8c60496235dcdbb68470712457887af9a3cc
+  527  git log --oneline
+  528  git diff 435a8c6 a347486
+  529  history
+  530  ls
+  531  git status
+  532  vi file1
+  533  git add file1
+  534  git status
+  535  vi file1
+  536  git status
+  537  git diff
+  538  git diff --staged
+  539  history
+  540  git remote add class999 https://github.com/vipin-ethans/class995.git
+  541  git branch -m master
+  542  git push -u class999 master
+  543  git add file1
+  544  git commit -m "last commit"
+  545  git push -u class999 master
+  546  vi file2
+  547  vi file3
+  548  vi file1
+  549  git status
+  550  git add .
+  551  git commit -m " three file commited"
+  552  git push -u class999 master
+  553  vi file4
+  554  vi file1
+  555  git status
+  556  vi .gitignore
+  557  git add .
+  558  git commit -m "las for day"
+  559  git push -u class999 master
+  560  history >file1
